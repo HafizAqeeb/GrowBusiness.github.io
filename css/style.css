@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --navbar-height: 59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+#logo{
+    margin: 1px -14px
+}
+#logo img{
+    height: 67px;
+    margin: 6px 38px;
+}
+img{
+    width: 65px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{ 
+color: white;
+   display: block;
+   padding: 5px 20px;
+   border-radius: 22px;
+   text-decoration: none;
+}
+#navbar ul li a:hover{ 
+color: black;
+ background-color: white;
+}
+#home{
+
+    display: flex;
+    height: 440px;
+    flex-direction: column;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home:before{
+    content: "";
+    background: url(../img1.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#home h1{
+    color:white;
+    text-align:center;
+}
+#home p{
+    color:white;
+    text-align:center;
+    font-size: 1.3rem;
+}
+#services{
+    margin: 0px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    height: 301px;
+    padding: 26px;
+    margin: 12px;
+    border-radius: 10px;
+    background-color: rgb(230, 221, 221);
+    opacity: ;
+}
+.h-primary-1{
+    font-size:50px ;
+}
+#services .box img{
+    
+    display: block;
+    margin: auto;
+    width: 129px;
+
+}
+#services{}
+#services{}
+
+#client-section{
+    
+}
+.h-primary{
+    font-size:3.4rem;
+    padding: 105px;
+}
+.h-secondary{
+    font-size:2.4rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
